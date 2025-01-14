@@ -1,0 +1,304 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.banner {
+  /* width: 0 0 60%; */
+  width: 100%;
+  height: auto;
+}
+
+.homeBtn {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.navbar-brand img {
+  width: 9rem;
+  height: auto;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.pricingSpan {
+  font-size: 9px;
+}
+
+.navbar {
+  font-family: "Roboto", sans-serif;
+  padding: 0.9rem;
+}
+.nav-item {
+  margin-left: 4%;
+  color: black;
+}
+
+.nav-link:hover {
+  color: blue !important;
+}
+
+.navbar-brand-custom {
+  margin-left: 8%;
+}
+
+.nav-item {
+  margin-right: 4%;
+}
+
+.nav-link {
+  font-size: 16px; /* Optional: Adjust font size for links */
+}
+
+/* Customizing the arrow icon spacing */
+.text-decoration-none span small i {
+  margin-left: 5px;
+}
+
+/* Optional: Adjust button style for different screen sizes */
+.homeBtn {
+  width: 150px; /* Set a fixed width */
+  padding: 10px 16px; /* Reduce padding */
+  font-size: 0.9rem;
+}
+
+/* Custom style for the pricing span text */
+.pricingSpan {
+  font-size: 0.6rem;
+  font-weight: 400;
+  color: #424242;
+}
+
+.footerIcon {
+  margin-left: 1rem;
+}
+
+.footerLink {
+  text-decoration: none;
+}
+
+.footerLink:hover {
+  cursor: pointer;
+  color: blue !important;
+}
+
+.footerpara {
+  font-size: 0.7rem;
+  font-family: "Roboto";
+  opacity: 0.8;
+}
+.pLink:hover {
+  color: black;
+}
+.pLinks {
+  font-family: "Roboto";
+  text-decoration: none;
+  color: #0d6efd;
+}
+
+.pLinks:hover {
+  color: black;
+}
+
+.ulLink {
+  font-family: "Roboto";
+  opacity: 0.6;
+}
+
+.profile-img {
+  width: 250px; /* Make the image bigger */
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.name-title {
+  font-family: "Roboto";
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.designation {
+  font-family: "Roboto";
+  font-size: 1rem;
+  color: gray;
+}
+.links a {
+  font-family: "Roboto";
+  text-decoration: none;
+  color: #0d6efd;
+  margin-right: 10px;
+}
+.links a:hover {
+  color: black;
+}
+.row {
+  margin-left: 0; /* Reduce spacing */
+  margin-right: 0;
+}
+@media (min-width: 768px) {
+  .col-md-6 {
+    padding-left: 20px; /* Reduce space between image and text */
+    padding-right: 20px;
+  }
+}
+
+.custom-link {
+  text-decoration: none;
+  color: #0d6efd; /* Default link color (Bootstrap primary color) */
+  transition: color 0.3s ease; /* Smooth transition effect */
+}
+
+.custom-link:hover {
+  color: black; /* Change text color to black on hover */
+}
+
+.store-icon:hover {
+  cursor: pointer;
+}
+.custom-container {
+  margin-top: 50px;
+}
+
+.custom-logo {
+  max-width: 120px; /* Adjust the logo size */
+}
+
+.card-body {
+  text-align: center;
+}
+
+.custom-margin-bottom {
+  margin-bottom: 30px;
+}
+
+.btn-custom {
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.card-img-custom {
+  max-height: 50px;
+  object-fit: contain;
+  width: 100%;
+}
+
+.heading {
+  opacity: 0.7;
+  font-size: 1.2rem;
+  font-family: Roboto, "sans-serif";
+  margin-bottom: 1.2rem;
+}
+.paragraph {
+  opacity: 0.7;
+  font-size: small;
+  font-family: Roboto, "sans-serif";
+}
+
+.free-tag {
+  /* padding-left: 0.6rem; */
+  text-align: center;
+  vertical-align: middle;
+  width: 3rem;
+  height: auto;
+  background-color: #00ff40;
+  color: black;
+  opacity: 10 !important;
+  font-size: small;
+  font-weight: bolder;
+}
+
+td {
+  border-bottom: none;
+}
+
+.customLink {
+  text-decoration: none;
+  margin-left: 2rem;
+  color: #0d6efd; /* Default link color (Bootstrap primary color) */
+  transition: color 0.3s ease; /* Smooth transition effect */
+}
+.customLink1 {
+  text-decoration: none;
+  font-family: Roboto, "sans-serif";
+  color: #ffffff; /* Default link color (Bootstrap primary color) */
+  transition: color 0.3s ease; /* Smooth transition effect */
+}
+
+.customLink:hover {
+  color: black; /* Change text color to black on hover */
+}
+
+.search-input {
+  padding-right: 40px; /* Space for the icon */
+  height: 3.5rem;
+  font-family: Roboto, "sans-serif";
+  font-size: 1rem;
+}
+
+.search-icon {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #666;
+  cursor: pointer;
+  font-weight: 100; /* Makes the icon bold */
+  font-size: 1.2rem;
+}
+
+.custom-heading {
+  font-size: 1.5rem;
+  font-family: Roboto, "sans-serif";
+  font-weight: 500;
+  color: #fff; /* Example: White text */
+}
+
+.custom-paragraph {
+  font-size: 1.4rem;
+  font-family: Roboto, "sans-serif";
+  color: #e8f1ff; /* Example: Light text color */
+  line-height: 2;
+}
+
+/* .icon {
+  font-weight: bolder !important;
+  font-size: 1.2rem;
+} */
+
+.dropDownspan {
+  margin-left: 2.8rem;
+  font-size: 0.7rem;
+  opacity: 0.5;
+  font-family: Roboto, "sans-serif";
+}
+
+.animated {
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+}
+
+.zoom-in {
+  animation-name: zoomIn;
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
